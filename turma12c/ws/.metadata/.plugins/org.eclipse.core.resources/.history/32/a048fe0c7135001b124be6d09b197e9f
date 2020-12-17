@@ -1,0 +1,16 @@
+package br.com.universidadexyz.implementacao;
+
+import br.com.universidadexyz.beans.Aluno;
+
+public class ImplementarTesteAluno {
+
+	public static void main(String[] args) {
+		
+		Aluno aluno = new Aluno();
+		
+	
+				
+
+	}
+
+}

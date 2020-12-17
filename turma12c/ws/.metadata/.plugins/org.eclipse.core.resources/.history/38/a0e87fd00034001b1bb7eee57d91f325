@@ -1,0 +1,34 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class DesafioWhile {
+
+	public static void main(String[] args) {
+		
+		
+	float ano = Float.parseFloat(JOptionPane.showInputDialog("Entre com o Ano:"));
+	float mes = Float.parseFloat(JOptionPane.showInputDialog("Entre com o Mês:"));
+	float dia = Float.parseFloat(JOptionPane.showInputDialog("Entre com o Dia:"));
+		
+		
+		while (ano<1900) {
+			System.out.println("errado");		
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,22 @@
+package br.com.concessionariarubinho.modelo;
+
+public class CarroFormula1 {
+
+	private String cor;
+	private float valor;
+	public String escuderia;
+	private float velocidade;
+	private boolean status;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

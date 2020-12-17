@@ -1,0 +1,38 @@
+package br.com.excecoes.implementacao;
+
+public class TesteExcecao {
+
+	public static void main(String[] args) {
+		
+		try {
+			int numero = Integer.parseInt("9k");
+			System.out.println("Número: " + numero);
+			
+			String palavra = null;
+			System.out.println("Qtde de caracteres: " + palavra.length());
+			
+		}catch(NullPointerException e) {
+			System.out.println("objeto Nulo"); 
+		}catch(NumberFormatException e) {
+			System.out.println("Numero Invalido"); 
+		}catch(Exception e) {
+			System.out.println("Erro no sistema"); //na exceção você pode colocar qq mensagem.
+			e.printStackTrace();
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

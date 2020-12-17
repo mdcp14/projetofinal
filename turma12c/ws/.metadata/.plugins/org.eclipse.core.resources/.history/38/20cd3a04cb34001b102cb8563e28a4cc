@@ -1,0 +1,30 @@
+package br.com.concessionariarubinho.modelo;
+
+public class CarroFormula1 {
+
+	private String cor;
+	private float valor;
+	private String escuderia;
+	private float velocidade;
+	private boolean status;
+	
+	//Sintaxe de um metodo
+	
+	//<modificador> <tipo do retorno> <nomeDoMetodo> (<tipoParam> <nome do parametro>){
+	
+	public void preencherEscuderia(String param) {
+		escuderia = param.toUpperCase();
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

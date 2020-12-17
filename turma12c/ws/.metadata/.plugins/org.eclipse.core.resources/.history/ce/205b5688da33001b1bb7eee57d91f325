@@ -1,0 +1,49 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class DesafioDecisaoComposta {
+
+	public static void main(String[] args) {
+		
+		
+		String produto = JOptionPane.showInputDialog("Nome do Produto").toUpperCase();
+		int qtde = Integer.parseInt(JOptionPane.showInputDialog("Quantidade: "));
+		short valor = Short.parseShort(JOptionPane.showInputDialog("Valor do produto: "));
+		
+		
+		//Vamos fazer um if para condição
+		//&& = and = e
+		//|| = or = ou 
+		//!= = not = não é igual 
+		
+		if (qtde>=10 && qtde<=20) {
+		    System.out.println(produto + "Estoque normal");    		
+	    }else if (qtde>=10) {
+		
+			System.out.println(produto + "Estoque baixo");
+			
+		}else if (qtde<=20) {
+			
+			System.out.println(produto + "Estoque alto");	
+		}else if (valor>=1000) {
+			
+			System.out.println(valor + "Valor alto!");
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

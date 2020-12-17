@@ -1,0 +1,35 @@
+package br.com.excecoes.implementacao;
+
+public class TesteExcecao {
+
+	public static void main(String[] args) {
+		
+		try {
+			int numero = Integer.parseInt("pp");
+			System.out.println("Número: " + numero);
+			
+			String palavra = null;
+			System.out.println("Qtde de caracteres: " + palavra.length());
+			
+			
+		}catch(Exception e) {
+			System.out.println("Erro no sistema"); //na exceção você pode colocar qq mensagem.
+			e.printStackTrace();
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

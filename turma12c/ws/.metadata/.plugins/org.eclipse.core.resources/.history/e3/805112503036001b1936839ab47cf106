@@ -1,0 +1,18 @@
+package br.com.lojaabc.beans;
+
+public class Venda {
+
+	private int notaFiscal;
+	private produto: Produto;
+	private cliente: Cliente 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

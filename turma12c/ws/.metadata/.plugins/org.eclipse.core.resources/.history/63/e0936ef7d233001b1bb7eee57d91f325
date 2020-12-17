@@ -1,0 +1,29 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class DesafioDecisaoSimples {
+
+	public static void main(String[] args) {
+		
+		String nome = JOptionPane.showInputDialog("Nome").toUpperCase();
+		int idade = Integer.parseInt(JOptionPane.showInputDialog(("Digite a sua idade: "));
+		
+		if (idade>65) {
+		 Show.out.println((nome + "Seu voto é facultativo!"));
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

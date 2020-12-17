@@ -1,0 +1,32 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class Exercicio1Lista2 {
+
+	public static void main(String[] args) {
+
+		String diaria = 80;
+		int dias = Integer.parseInt(JOptionPane.showInputDialog(("Quantos dias ficou?"));
+		/*int  tx1 = 5.50;
+		int  tx2 = 6;
+		int  tx3 = 8;
+*/
+		if (diaria>15) {
+			System.out.println("Sua conta ficou em:" + diaria + tx1);
+		}else if (diaria==15) {
+			System.out.println("Sua conta ficou em:" + diaria + tx2);
+		}if (diaria<15) {
+			System.out.println("Sua conta ficou em:" + diaria + tx3);
+		}
+
+
+
+
+
+
+
+
+	}
+
+}

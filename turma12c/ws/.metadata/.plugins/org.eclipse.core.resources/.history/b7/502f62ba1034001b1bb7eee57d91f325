@@ -1,0 +1,27 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class DesafioDo {
+
+	public static void main(String[] args) {
+		
+		float num1 = 0;
+		float num2 = 0;
+		
+		do {
+			num1 = Float.parseFloat(JOptionPane.showInputDialog("Digite um número"));
+		
+		}while 
+			(num1 == num2); 
+			System.out.println("Número não é igual");
+		}
+			
+		
+		
+		
+		
+		
+	
+
+}

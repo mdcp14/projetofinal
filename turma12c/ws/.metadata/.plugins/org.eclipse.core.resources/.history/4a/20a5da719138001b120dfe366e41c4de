@@ -1,0 +1,29 @@
+package br.com.excecoes.implementacao;
+
+public class TesteExcecao {
+
+	public static void main(String[] args) {
+		
+		try {
+			int numero = Integer.parseInt("99");
+			System.out.println("Número: " + numero);
+		}catch(Exception e) {
+			System.out.println("Erro no sistema");
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

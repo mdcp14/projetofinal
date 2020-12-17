@@ -1,0 +1,32 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class DesafioWhile {
+
+	public static void main(String[] args) {
+		
+		
+	float ano = Float.parseFloat(JOptionPane.showInputDialog("Entre com o Ano:"));
+	float mes = Float.parseFloat(JOptionPane.showInputDialog("Entre com o Mês:"));
+	float dia = Float.parseFloat(JOptionPane.showInputDialog("Entre com o Dia:"));
+		
+		
+		while(ano<1900) {
+              ano = JOptionPane.showInputDialog("Digite o ano correto"); 		
+			System.out.println("Digite ano maior que 1900;");		
+		}
+		while(mes>12) {
+		System.out.println("Mes está errado");
+		}
+		
+		
+		
+		
+
+		
+		
+
+	}
+
+}

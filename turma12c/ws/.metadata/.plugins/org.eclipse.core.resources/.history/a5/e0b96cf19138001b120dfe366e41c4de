@@ -1,0 +1,29 @@
+package br.com.excecoes.implementacao;
+
+public class TesteExcecao {
+
+	public static void main(String[] args) {
+		
+		try {
+			int numero = Integer.parseInt("kk");
+			System.out.println("Número: " + numero);
+		}catch(Exception e) {
+			System.out.println("Erro no sistema");
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

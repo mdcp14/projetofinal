@@ -1,0 +1,27 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class Slide77Exercicio4 {
+
+	public static void main(String[] args) {
+		/*Monte um programa que solicite a idade e o nome das pessoas. 
+		 * Ao terminar, o programa deverá exibir a pessoa mais velha, a pessoa mais nova, a quantidade de pessoas
+		 * maiores de idade e a media entre as idade queforam digitadas		  
+		 */
+		
+		
+		String nome = JOptionPane.showInputDialog("Digite o nome:");
+		int idade = Integer.parseInt(JOptionPane.showInputDialog("Digite a sua idade: "));
+		int contador=1;
+		
+		while (contador>0) {
+			contador =  
+		}
+        
+        
+        	 
+	
+	}
+
+}

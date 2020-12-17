@@ -1,0 +1,12 @@
+package br.com.lojaabc.beans;
+
+public class Fabricante {
+
+	private String cnpj;
+	private String razaosocial,
+	private String 
+	
+	
+	
+	
+}

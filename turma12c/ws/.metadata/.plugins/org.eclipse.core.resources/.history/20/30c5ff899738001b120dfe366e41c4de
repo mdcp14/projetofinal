@@ -1,0 +1,45 @@
+package br.com.excecoes.implementacao;
+
+import tratarexcecao.MinhaExcecao;
+
+public class TesteExcecao {
+
+	/*Existe 2 tipos de excecoes;
+	 * Unchecked´s = DC (depois da complicação);
+	 * Checked´s = AC (antes da compilação)
+	 * */
+	
+	public static void main(String[] args) {
+		
+		try {
+			int numero = Integer.parseInt("");
+			if (numero<0) {
+				throw new RuntimeException("Ligue para a central");
+			}
+			System.out.println("Número: " + numero);
+			
+			String palavra = null;
+			System.out.println("Qtde de caracteres: " + palavra.length());
+			
+ 
+		}catch(Exception e) {
+			System.out.println(MinhaExcecao.tratar(e)); 
+			
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

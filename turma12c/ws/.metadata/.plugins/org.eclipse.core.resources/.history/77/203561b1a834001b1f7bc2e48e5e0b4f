@@ -1,0 +1,40 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class Slide77Exercicio4 {
+
+	public static void main(String[] args) {
+		
+		/*Monte um programa que solicite a idade e o nome das pessoas. 
+		 * Ao terminar, o programa deverá exibir a pessoa mais velha, a pessoa mais nova, a quantidade de pessoas
+		 * maiores de idade e a media entre as idade queforam digitadas		  
+		 */
+		
+		String nome="";
+		int idade=0;
+		int maioresDeIdade=0;
+		int qtdePessoas = 0;
+		int totalIdade = 0;
+		
+		do {
+			nome = JOptionPane.showInputDialog("Nome:").toUpperCase();
+			idade = Integer.parseInt(JOptionPane.showInputDialog("Idade:"));
+			if (idade>=18) {
+				maioresDeIdade++;
+			}
+			
+			qtdePessoas++;
+			totalIdade+= idade;  //totalIdade= totalIdade=idade;
+			
+			
+		}while (JOptionPane.showConfirmDialog(null,  "Continuar?", "?", JOptionPane.YES_NO_OPTION)==0);
+        System.out.println("Qtde de Pessoas Maiores de Idade" + maioresDeIdade);
+        System.out.println("Média de Idades: " + (totalIdade/qtdePessoas));
+        
+        
+        	 
+	
+	}
+
+}
